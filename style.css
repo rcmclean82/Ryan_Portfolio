@@ -1,0 +1,44 @@
+/*Universal Selector*/
+* {margin:auto;
+    padding: 5px;
+    box-sizing: border-box;
+} 
+p {
+  margin: 0;
+  padding: 0;
+}
+/*Border Style*/  
+p.dashed {border-style: dashed;}
+
+/*Type Selector*/
+body {
+    font-family: Arial,sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #4c9de0;
+}
+
+/*Class Selector*/
+.highlight {
+    color: #1155CC;
+    font-weight: bold;
+}
+/*Descendant Selector*/
+div p a {text-decoration: underline;}
+
+/*psudo-class selector*/
+a:hover {
+    color: #c3cef1;
+    font-weight: bold;
+}   
+
+/*Border Property*/
+body {
+    border: 10px solid #c3d5dd;
+    margin: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/*List Style Property*/
+ol.g {list-style: decimal;}
